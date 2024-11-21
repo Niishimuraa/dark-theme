@@ -1,0 +1,12 @@
+<header>
+    <a>Logo</a>
+    <ul>
+        <li><a [routerLink]="['/']">Home</a></li>
+        <li><a [routerLink]="['/sobre']">Sobre</a></li>
+        <li>
+            <button type="button" (click)="toggleTheme()">
+                <img src="\assets\icon\{{ icon }}.svg" alt="icone para mudar tema" />
+            </button>
+        </li>
+    </ul>
+</header>
